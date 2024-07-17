@@ -1,0 +1,117 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body
+   {  
+       background-color: aliceblue;
+       margin:0;
+       padding: 0%;
+       color:black;
+       line-height: 1.5;
+       font-family: poppins,"sans-serif";
+   }
+h1,h2
+    {
+        font-weight: 700px;
+    } 
+p,a
+    {
+        font-weight: 300px;   
+    } 
+a   
+    {
+        text-decoration: none;
+    }      
+a:hover
+    {
+        color: blue;
+        text-decoration: underline;
+    }   
+header
+    {
+        color: gainsboro;
+        background:linear-gradient(to right, violet,#c6008e);
+        padding:40px 0;
+        text-align: center;
+    }     
+section
+     {
+         padding: 40px;
+         text-align: center;
+     }    
+img
+     {
+         width:200px;
+         height:200px;
+         border-radius: 50%;
+         box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+         object-fit: cover;
+     }
+table ul li
+    {
+        max-width: 200px; 
+        margin:20px auto;
+        padding: 20px;
+        background: #fff;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+        list-style: none;
+        text-align: center;
+        display: inline;
+        margin: 25px;
+        border-radius: 20px;
+
+    } 
+ table ul li:hover
+    {
+        color: lightgray;
+    }       
+ form
+     {
+        max-width: 500px;
+         margin:20px auto;
+         padding: 20px;
+         background: #fff;
+         box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+     }    
+form input[type="text"],
+form input[type="email"],
+form textarea{
+         width:calc(100% - 20px);
+         padding: 10px;
+         margin-bottom: 20px;
+         border:1px solid #ccc;
+         border-radius: 5px;
+         flex-grow: 1;
+     }
+form button
+     {
+         background:linear-gradient(to right,violet,#c6008e);
+         color: #fff;
+         border: 0;
+         border-radius: 10px;
+        cursor: pointer;
+        padding:15px 70px 20px 70px;
+        font-size: 18px; 
+        transition: background-image 0.3s ease;
+     }  
+ form button:hover
+     {
+         background:linear-gradient(to left,violet,#c6008e)
+     }   
+footer 
+      {
+        background:linear-gradient(to right, violet,#c6008e);
+        color: gainsboro;  
+        padding:25px;
+        font-size: larger;
+      }          
+hr
+      {
+          border: 50%;
+      }
+
+
+
+
+
+
+
+
